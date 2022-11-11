@@ -1,0 +1,126 @@
+body {
+	font-family: "verdana", "arial";
+	background: url("../img/fundo-azul.jpg");
+	background-attachment: fixed;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#global {
+	padding: 20px;
+	margin: 40px auto 30px;
+	background: #eef;
+	border: 1px solid #bbb;
+	box-shadow: 1px 1px black;
+	border-radius: 8px;
+	height: 80%;
+	width: 70%;
+}
+
+#logo {
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	background: #4374e6;
+	margin: 15px 20px;
+	text-align: center;
+	padding: 15px 0px;
+	width: 730px;
+}
+
+#nav-bar {
+	background: #5783eb;
+	margin: 0px 20px;
+}
+
+#logo, #nav-bar {
+	border-radius: 2px;
+}
+
+#nav-bar ul {
+	padding: 0px 25px;
+}
+
+#nav-bar ul li {
+	float: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;	
+	display: block;
+	transition: all 250ms;
+}
+
+#nav-bar ul li:hover {
+	background: #4374e6;
+}
+
+#nav-bar a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 12px 12px;
+}
+
+#content {
+	margin: 0px 20px;
+	text-align: justify;
+	letter-spacing: 1px;
+}
+
+#content aside {
+	float: right;
+	width: 25%;
+	padding-top: 25px;
+}
+
+#principal {
+	float: left;
+	width: 70%;
+}
+
+
+
+
+#temp-content {
+	display: none;
+}
+
+footer{
+	color: #ffd;
+	height: 44px;
+	background: rgba(51, 51, 51, 0.70);
+	margin: 0px auto;
+	width: 70%;
+	padding-left: 30px;
+	padding-right: 20px;
+	margin-top: 50px;
+	line-height: 47px;
+}
+
+#css-js, #css-js-ideal, #css-jquery {
+	float: left;
+	margin-top: 30px;
+	padding: 20px;
+	margin: 20px;
+	background: lightblue;
+	border: 1px solid #bbb;
+	box-shadow: 1px 1px black;
+	border-radius: 8px;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+}
+
+span {
+  background-color: aqua;
+}
+
+div > span {
+  background-color: yellow;
+}
